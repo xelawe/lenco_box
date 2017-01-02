@@ -1,10 +1,11 @@
 #include <Wire.h>
-#include <PT2314.h>
+#include <PT2314.h> // https://github.com/andykarpov/PT2314
 
 PT2314 audio;
 
 /**
    Send tone control values to the PT2314
+https://github.com/andykarpov/PiRadio-OLED/tree/master/ino/src
 */
 void sendPT2314() {
   audio.volume(60);
