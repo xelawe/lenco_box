@@ -12,7 +12,7 @@
 #define DebugPrintln(...) { }
 #endif
 
-#include "tools_wifi.h"
+#include "cy_wifi.h"
 #include "ota_tool.h"
 #include "audio_util.h"
 
@@ -42,8 +42,5 @@ void loop() {
   delay(1000);                      // wait one second
 
 
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 3b9c9224140ba2a94abf8578b61a21a387c0ccc5
+

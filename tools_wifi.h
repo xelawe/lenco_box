@@ -58,8 +58,4 @@ void check_wifi_conn() {
     delay(5000);
   }
 }
-<<<<<<< HEAD
 
-=======
-
->>>>>>> 3b9c9224140ba2a94abf8578b61a21a387c0ccc5

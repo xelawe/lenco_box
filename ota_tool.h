@@ -28,8 +28,4 @@ void check_ota(){
     //ota loop
   ArduinoOTA.handle();
 }
-<<<<<<< HEAD
 
-=======
-
->>>>>>> 3b9c9224140ba2a94abf8578b61a21a387c0ccc5
