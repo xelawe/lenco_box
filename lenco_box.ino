@@ -13,7 +13,7 @@
 #endif
 
 #include "cy_wifi.h"
-#include "ota_tool.h"
+#include "cy_ota.h"
 #include "audio_util.h"
 
 void setup() {
@@ -21,10 +21,10 @@ void setup() {
   Serial.begin(115200);
 #endif
 
-  wifi_init("D1mini");
+  wifi_init("lenco_box");
   delay(500);
 
-  init_ota("D1mini");
+  init_ota("lenco_box");
 
   pinMode(BUILTIN_LED, OUTPUT);  // initialize onboard LED as output
 
